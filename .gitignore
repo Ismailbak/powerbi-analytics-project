@@ -1,0 +1,12 @@
+__pycache__/
+.venv/
+env/
+*.pyc
+*.pyo
+*.pyd
+.DS_Store
+/.vscode/
+data/raw/
+data/processed/
+data/external/
+/powerbi/dashboard.pbix

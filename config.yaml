@@ -1,0 +1,19 @@
+# Configuration for ETL and deployment
+etl:
+  source: "api_or_db"
+  api:
+    base_url: "https://api.example.com"
+    timeout: 30
+  db:
+    driver: "ODBC Driver 17 for SQL Server"
+    host: "localhost"
+    database: "mydb"
+    user: "user"
+    password: "pass"
+paths:
+  raw: "data/raw"
+  processed: "data/processed"
+  external: "data/external"
+powerbi:
+  workspace_id: "<POWERBI_WORKSPACE_ID>"
+  dataset_name: "analytics_dataset"
